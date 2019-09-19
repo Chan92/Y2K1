@@ -14,8 +14,6 @@ public class GenericSingelton<T> : MonoBehaviour
 
 	protected virtual void Awake() 
 	{
-
-		//print("singleton: " + GetInstanceID());
 		if(Instance == null) 
 		{
 			Instance = this as T;
