@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 	private Transform player;
 
 	private float randomTarget;
-	private const float minThrowDelay = 0f, maxThrowDelay = 5f;	
+	private const float minThrowDelay = 1f, maxThrowDelay = 5f;	
 
 	private void Start()
     {

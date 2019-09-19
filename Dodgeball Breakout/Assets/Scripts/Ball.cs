@@ -78,7 +78,7 @@ public class Ball :MonoBehaviour
 	}
 
 	//if the ball gets out of the game, check for the health
-	private void OnTriggerEnter(Collider _other) 
+	private void OnTriggerExit(Collider _other) 
 	{
 		if(_other.GetComponent<Manager>() != null) 
 		{

@@ -10,8 +10,7 @@ public class Rock : MonoBehaviour
 		{
 			_other.gameObject.SetActive(false);
 			_other.GetComponentInParent<Player>().Health();
+			RockPool.Instance.ReturnToPool(gameObject);
 		}
-
-		RockPool.Instance.ReturnToPool(gameObject);
 	}
 }

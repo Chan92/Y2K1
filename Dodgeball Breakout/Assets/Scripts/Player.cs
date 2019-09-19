@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 	[SerializeField]
 	private float moveSpeed = 25f;
 	private float lives;
-	private Vector2 positionClamp = new Vector2(-11f, 11f);
+	private Vector2 positionClamp = new Vector2(-9f, 9f);
 	private Rigidbody rb;
 
 	void Start() 
